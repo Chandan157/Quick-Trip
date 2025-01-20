@@ -1,0 +1,83 @@
+.view_hotel_container {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  a {
+    text-decoration: none;
+  }
+  .edit_profile {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .view_photo_gelerry {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+    img {
+      width: 120px;
+      height: 80px;
+      border-radius: 5px;
+      border: 1px solid #cfcfcf;
+    }
+  }
+  .hotel_view_details_continer {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+  .leaflet_add_input {
+    height: 300px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .room_features {
+    margin-top: 1rem;
+
+    .features_con {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+
+      .single_features {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+
+        @media (max-width: 610px) {
+          margin-bottom: 1rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+
+        .features_icn {
+          font-size: 2.5rem;
+          padding: 10px;
+          border-radius: 10px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+            rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          margin-right: 0.4rem;
+          color: rgb(107, 114, 128);
+        }
+      }
+    }
+  }
+}

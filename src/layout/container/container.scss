@@ -1,0 +1,11 @@
+.main_container_component {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (max-width: 1440px) {
+    padding: 0 2rem;
+  }
+  @media screen and (max-width: 980px) {
+    padding: 0 1rem;
+  }
+}

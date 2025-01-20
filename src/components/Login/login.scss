@@ -1,0 +1,80 @@
+.login {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 600px) {
+    padding: 0 1rem;
+  }
+  .reg_back {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    background-color: #006ce4;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.4rem;
+    @media (max-width: 600px) {
+      top: 1%;
+      left: 5%;
+    }
+  }
+  .reg_main_container {
+    width: 25%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    margin-top: 4rem;
+    @media (max-width: 1400px) {
+      width: 35%;
+    }
+    @media (max-width: 1000px) {
+      width: 45%;
+    }
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+    .reg_logo_main {
+      width: 120px;
+    }
+    .main_heading {
+      font-weight: 600;
+      font-size: 2rem;
+      color: #000;
+      margin: 1rem 0;
+    }
+    .reg_container {
+      width: 100%;
+      @media (max-width: 600px) {
+        width: 100%;
+      }
+      .reg_input {
+        margin-bottom: 1rem;
+      }
+
+      button {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+      }
+
+      .reg_option {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+
+        a {
+          text-decoration: none;
+          color: #006ce4;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

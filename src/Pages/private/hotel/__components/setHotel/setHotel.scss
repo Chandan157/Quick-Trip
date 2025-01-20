@@ -1,0 +1,120 @@
+.set_hotel_data {
+  border: 1px solid #e5e5e5;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  form {
+    .img_input {
+      padding: 10px;
+      border: 1px solid rgba(229, 231, 235, 1);
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+      .drag_area {
+        background-color: green;
+        height: 150px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px dashed #006ce4;
+        background: #f4f3f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        -webkit-user-select: none;
+        .select {
+          color: #006ce4;
+          margin-left: 5px;
+          cursor: pointer;
+          transition: 0.4s;
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+      }
+      .img_container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-height: 200px;
+        overflow-y: auto;
+        margin-top: 10px;
+        .image {
+          width: 75px;
+          margin-right: 5px;
+          height: 75px;
+          position: relative;
+          margin-bottom: 8px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+          }
+          span {
+            position: absolute;
+            top: -2px;
+            right: 9px;
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .img_input input {
+      display: none;
+    }
+    .delete {
+      z-index: 999;
+      color: #006ce4;
+    }
+    .search_location {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      input {
+        width: 100%;
+      }
+    }
+    .reg_input {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+
+    .place_search_result {
+      list-style: none;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        cursor: pointer;
+        border: 1px solid rgb(165, 165, 165);
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        border-radius: 10px;
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .spinner_loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    .leaflet_add_input {
+      height: 300px;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+}

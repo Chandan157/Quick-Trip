@@ -1,0 +1,62 @@
+.userDetails {
+	padding: 4rem;
+    height: 100vh;
+    h2{
+        color: #fff;
+    }
+	.userDetails_container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        flex-direction: column;
+
+		img {
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+		}
+
+        .reg_container {
+            width: 25%;
+            margin-top: 2rem;
+    
+            .reg_input {
+                margin-bottom: 1rem;
+    
+                p {
+                    color: #000000;
+                    font-size: 0.9rem;
+                }
+    
+                input {
+                    border: none;
+                    border: 1px solid rgba(229, 231, 235, 1);
+                    outline: none;
+                    width: 100%;
+                    height: 35px;
+                    border-radius: 10px;
+                    padding: 0 1rem;
+                    font-family: "DM Sans", sans-serif;
+                }
+            }
+    
+            button {
+                width: 100%;
+                font-size: 0.9rem;
+                margin-top: 0.5rem;
+            }
+    
+            .reg_option {
+                font-size: 0.9rem;
+                margin-top: 1rem;
+    
+                a {
+                    text-decoration: none;
+                    color: rgb(79, 70, 229);
+                    font-weight: 600;
+                }
+            }
+        }
+	}
+}

@@ -1,0 +1,47 @@
+.room_listing_container {
+  border: 1px solid #e5e5e5;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+
+  .features_con {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+
+    .single_features {
+      display: flex;
+      align-items: center;
+      margin-right: 1rem;
+
+      @media (max-width: 610px) {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+
+      .features_icn {
+        font-size: 2.5rem;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        margin-right: 0.4rem;
+        color: rgb(107, 114, 128);
+      }
+    }
+  }
+
+  .room_numbers {
+    margin-top: 1rem;
+
+    .room_num {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  }
+}
