@@ -183,11 +183,11 @@ const SetHotel = () => {
               className="select_primary"
               {...register("type", { required: "Type is required" })}
             >
-              <option value="hotels">hotels</option>
-              <option value="apartments">apartments</option>
-              <option value="resorts">resorts</option>
-              <option value="villas">villas</option>
-              <option value="cabins">cabins</option>
+              <option value="religious">Religious Monuments</option>
+              <option value="historical">Historical Monuments</option>
+              <option value="cultural">Cultural Monuments</option>
+              <option value="modern">Modern Monuments</option>
+              <option value="museum">Museums</option>
             </select>
             {errors.type && (
               <div className="input_error">{errors.type.message}</div>

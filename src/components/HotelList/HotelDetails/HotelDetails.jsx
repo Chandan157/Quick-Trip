@@ -103,7 +103,7 @@ const HotelDetails = ({ item, loading, id }) => {
           ) : (
             <>
               <p className="booking_sub_head">
-                Perfect for a {days}-night stay
+                Perfect for {days}-day trip
               </p>
               <p>
                 Located in the real heart of {item?.city}, this property has an
@@ -117,7 +117,7 @@ const HotelDetails = ({ item, loading, id }) => {
                 inclusive of all taxes
               </div>
               <div className="input_section">
-                <p>Check in date</p>
+                <p>Trip Duration</p>
                 <p
                   className="booking_date"
                   onClick={() => setOpenDate(!openDate)}

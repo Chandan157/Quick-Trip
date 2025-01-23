@@ -20,9 +20,9 @@ const Properties = () => {
     <section className="properties">
       <Container>
         <div className="properties_wrapper">
-          <h2 className="main_heading">Browse by property type</h2>
+          <h2 className="main_heading">Browse by Category</h2>
           <p className="heading_des">
-            Popular places to stay that Chisfis recommends for you
+            Popular places to Visit and Experience!
           </p>
           <div className="property_container">
             {loading ? (

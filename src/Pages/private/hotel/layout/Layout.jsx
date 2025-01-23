@@ -23,7 +23,7 @@ const Layout = () => {
               <nav className="user_layout_nav">
                 <ul>
                   <li>
-                    <Link to="/dashboard/hotel">Hotel Profile</Link>
+                    <Link to="/dashboard/hotel">Monument Profile</Link>
                   </li>
                   <li>
                     <Link to="/dashboard/hotel/list-room">View Rooms</Link>

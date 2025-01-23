@@ -29,8 +29,8 @@ const HotelList = ({ item }) => {
         </div>
         <div className="hotel_detls">
           <div className="hotel_all_details">
-            <p>{item.distance}</p>
-            <p className="hotel_free">Free airport taxi</p>
+            <p>From Railway Station: {item.distance} Km</p>
+            <p className="hotel_free">Free Taxi</p>
             <p className="hotel_fe_first">
               Studio Apartment with Air conditioning
             </p>
@@ -39,9 +39,9 @@ const HotelList = ({ item }) => {
             <p>You can cancel later, so lock in this great price today!</p>
           </div>
           <div className="hotel_right_con">
-            <p className="hoptel_price">${item.cheapestPrice}/Night</p>
+            <p className="hoptel_price">₹ {item.cheapestPrice}/Person</p>
             <div className="hotel_right_con_fst_cld">
-              <p className="taxes">Includes taxis and fees</p>
+              <p className="taxes">Includes taxes and fees</p>
               <Link to={`/hotel/${item._id}`}>
                 <button className="btn_primary">See availability</button>
               </Link>
