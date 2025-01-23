@@ -6,11 +6,11 @@ import "./properties.scss";
 import Container from "../../../layout/container/Container";
 
 const images = [
-  "/assets/property/hotels.webp",
-  "/assets/property/cabins.jpg",
-  "/assets/property/resorts.jpg",
-  "/assets/property/villas.jpg",
-  "/assets/property/apartments.jpg",
+  "/assets/property/puri.jpg",
+  "/assets/property/india-gate-delhi-4-attr-hero.jpg",
+  "/assets/property/cultural.png",
+  "/assets/property/modern.jpg",
+  "/assets/property/museum.webp",
 ];
 
 const Properties = () => {

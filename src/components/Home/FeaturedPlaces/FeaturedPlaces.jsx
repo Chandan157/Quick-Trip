@@ -53,7 +53,7 @@ const FeaturedPlaces = () => {
                       <div className="fe_border"></div>
                       <div className="fe_pr_ra">
                         <p className="fe_price">
-                          <span>₹{item.cheapestPrice}</span>/night
+                          <span>₹{item.cheapestPrice}</span>/person
                         </p>
                         {item.rating && (
                           <p className="fe_feating">

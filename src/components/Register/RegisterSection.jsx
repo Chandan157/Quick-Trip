@@ -97,7 +97,7 @@ const RegisterSection = ({ accountType, title }) => {
           {accountType === "user" && (
             <p className="reg_option reg_option_sub">
               Are you a hotel?
-              <Link to="/register-hotel"> Register as hotel</Link>
+              <Link to="/register-hotel"> Register as monument</Link>
             </p>
           )}
           {accountType === "hotel" && (

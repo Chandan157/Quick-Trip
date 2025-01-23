@@ -42,7 +42,7 @@ const CartPopup = ({ setCart }) => {
 											<p onClick={() => setCart(false)} className="header_ho">
 												{item.title}
 											</p>
-											<p>${item.cheapestPrice}/Night</p>
+											<p>${item.cheapestPrice}/person</p>
 										</div>
 										<div
 											className="hd_share_icn"

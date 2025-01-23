@@ -9,7 +9,7 @@ const WorkProgress = () => {
         <div className="work_progress_container">
           <div className="heading">
             <h1 className="main_heading">How it work</h1>
-            <p>Keep calm & travel on</p>
+            <p>Keep calm & Explore</p>
           </div>
           <img
             className="work_progress_connection_line"
